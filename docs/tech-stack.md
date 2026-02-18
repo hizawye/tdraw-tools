@@ -3,7 +3,7 @@
 - Language: TypeScript
 - Package manager/runtime: Bun
 - Workspace: Bun workspaces
-- Build: tsup + tsc (type-check)
+- Build: TypeScript project references (`tsc -b`)
 - Test: Vitest
 - Lint: ESLint
 - Formatter: Prettier
