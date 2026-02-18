@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "dist-types",
+    "rootDir": ".",
+    "types": ["svelte"],
+    "allowSyntheticDefaultImports": true
+  },
+  "references": [
+    { "path": "../../packages/core" },
+    { "path": "../../packages/lightweight-adapter" },
+    { "path": "../../packages/risk" }
+  ],
+  "include": ["src", "vite.config.ts"]
+}

@@ -1,0 +1,10 @@
+{
+  "files": [],
+  "references": [
+    { "path": "packages/core" },
+    { "path": "packages/lightweight-adapter" },
+    { "path": "packages/svelte" },
+    { "path": "packages/risk" },
+    { "path": "apps/playground" }
+  ]
+}

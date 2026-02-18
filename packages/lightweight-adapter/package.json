@@ -1,0 +1,25 @@
+{
+  "name": "@tdraw-tools/lightweight-adapter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "bunx tsc -b",
+    "typecheck": "bunx tsc -b --pretty false"
+  },
+  "peerDependencies": {
+    "@tdraw-tools/core": ">=0.1.0",
+    "lightweight-charts": ">=4.2.0 <6"
+  },
+  "devDependencies": {
+    "@tdraw-tools/core": "workspace:*"
+  }
+}

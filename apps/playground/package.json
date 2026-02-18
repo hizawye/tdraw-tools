@@ -1,0 +1,22 @@
+{
+  "name": "playground",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tdraw-tools/core": "workspace:*",
+    "@tdraw-tools/lightweight-adapter": "workspace:*",
+    "@tdraw-tools/risk": "workspace:*",
+    "lightweight-charts": "^5.0.6",
+    "svelte": "^5.22.2"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "vite": "^6.2.0"
+  }
+}

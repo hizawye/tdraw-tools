@@ -1,0 +1,10 @@
+node_modules
+.bun
+bun.lockb
+dist
+dist-types
+coverage
+.vite
+.DS_Store
+*.log
+*.tsbuildinfo
